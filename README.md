@@ -1,5 +1,73 @@
-# Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# App Crawl - Vue 3 + TypeScript + Vite
+  
+### Prerequisites :
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+* [node-js](https://github.com/creationix/nvm) v20
+
+* [npm](https://npmjs.com/)
+
+
+  
+
+## Project Setup
+
+  
+
+```sh
+
+nvm  use
+
+```
+
+  
+
+```sh
+
+npm  install
+
+```
+
+# Create .env from .env.example and set the Node Backend URL :
+```sh
+
+VITE_API_BASE_URL=http://localhost:3000
+
+```
+
+  
+
+### Compile and Hot-Reload for Development
+
+  
+
+```sh
+
+npm  run  dev
+
+```
+
+  
+
+### Type-Check, Compile and Minify for Production
+
+  
+
+```sh
+
+npm  run  build
+
+```
+
+  
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+  
+
+```sh
+
+npm  run  test:unit
+
+```
+
